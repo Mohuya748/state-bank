@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url(images/tree.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            /* background-size:cover; */
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.952);
+            background-blend-mode: overlay;
+        }
+    </style>
+
+</head>
+
+<body class="bg-zinc-700">
+    <header>
+        <h1 class="text-white text-6xl text-center font-semibold"
+            style=" text-shadow: 10px 2px 2px rgba(184, 247, 247, 0.493);">Welcome To State Bank</h1>
+    </header>
+    <main>
+        <div class="text-white text-center w-3/4  mx-auto mt-8 ">
+            <h1 class="block m-6 text-4xl font-semibold">Please log in</h1>
+            <input id="email-input" type="email" placeholder="enter your email"
+                class="block mb-4 mx-auto border-b text-2xl focus:outline-none w-3/4">
+            <input id="pass-input" type="password" placeholder="enter your password"
+                class="block mb-4 mx-auto border-b text-2xl focus:outline-none w-3/4">
+            <button id="login-button" class="bg-slate-400 px-6 py-2 rounded border-2 border-white font-semibold ">Log in
+            </button>
+        </div>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

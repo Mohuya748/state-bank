@@ -1,0 +1,46 @@
+
+input{
+    background-color: rgba(0, 0, 0, 0);
+}
+.bg-1{
+    background-image: url(images/tk.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode: overlay;
+}
+.bg-2{
+    background-image: url(images/tree.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode: overlay;
+
+}
+.bg-3{
+    background-image: url(images/fire.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode: overlay;
+
+}
+.bg-4{
+    background-image: url(images/money.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode: overlay;
+}
+.bg-5{
+    background-image: url(images/body.jpg);
+    background-position: center;
+    background-size: cover;
+    border: none;
+    background-color: rgba(0,0,0,.7);
+    background-blend-mode: overlay;
+}

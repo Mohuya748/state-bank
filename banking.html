@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BANK</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-200">
+  <header>
+      <h1 class="block m-6 text-5xl font-bold text-center">Get your money info here!</h1>
+  </header>
+  <main>
+      <section>
+          <div class="grid grid-cols-3 gap-6 text-center w-3/4 mx-auto mt-12">
+              <div class="bg-1 text-white p-8 rounded">
+                  <h1 class="text-4xl font-semibold">Deposit</h1>
+                  <p class="text-6xl font-semibold">$<span id="deposit-value">00</span></p>
+              </div>
+              <div class="bg-2 text-white p-8 rounded">
+                  <h1 class="text-4xl font-semibold">Withdraw</h1>
+                  <p class="text-6xl font-semibold">$<span id="withdraw-value">00</span></p>
+              </div>
+              <div class="bg-3 text-white p-8 rounded">
+                  <h1 class="text-4xl font-semibold">Balance</h1>
+                  <p class="text-6xl font-semibold">$<span id="balance-value">00</span></p>
+              </div>
+          </div>
+          <div class="grid grid-cols-2 gap-6 text-center w-3/4 mx-auto m-8">
+            <div class="bg-4 text-white p-8 rounded">
+                <h1 class="text-4xl font-semibold">Please Deposit</h1>
+                <input id="deposit-id" type="text" class="block m-4 mx-auto border-b text-2xl focus:outline-none w-3/4" >
+                <button id="deposit-button" class="bg-slate-400 px-6 py-2 rounded border-2 border-white font-semibold ">Deposit</button>
+            </div>
+            <div class="bg-5 text-white p-8 rounded">
+                <h1 class="text-4xl font-semibold">Please Withdraw</h1>
+                <input id="withdraw-id" type="text" class="block m-4 mx-auto border-b text-2xl focus:outline-none w-3/4" >
+                <button id="withdraw-button" class="bg-slate-400 px-6 py-2 rounded border-2 border-white font-semibold ">Withdraw</button>
+               
+            </div>
+
+          </div>
+      </section>
+  </main>
+
+  <script src="bank.js"></script>
+</body>
+</html>
