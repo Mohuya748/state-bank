@@ -14,7 +14,7 @@
   </header>
   <main>
       <section>
-          <div class="grid grid-cols-3 gap-6 text-center w-3/4 mx-auto mt-12">
+          <div class="grid lg:grid-cols-3 md:grid-cols-1 gap-6 text-center w-3/4 mx-auto mt-12">
               <div class="bg-1 text-white p-8 rounded">
                   <h1 class="text-4xl font-semibold">Deposit</h1>
                   <p class="text-6xl font-semibold">$<span id="deposit-value">00</span></p>
@@ -28,7 +28,7 @@
                   <p class="text-6xl font-semibold">$<span id="balance-value">00</span></p>
               </div>
           </div>
-          <div class="grid grid-cols-2 gap-6 text-center w-3/4 mx-auto m-8">
+          <div class=" grid lg:grid-cols-2 md:grid-cols-1 gap-6 text-center w-3/4 mx-auto m-8">
             <div class="bg-4 text-white p-8 rounded">
                 <h1 class="text-4xl font-semibold">Please Deposit</h1>
                 <input id="deposit-input" type="text" class="block m-4 mx-auto border-b text-2xl focus:outline-none w-3/4" >
@@ -37,8 +37,7 @@
             <div class="bg-5 text-white p-8 rounded">
                 <h1 class="text-4xl font-semibold">Please Withdraw</h1>
                 <input id="withdraw-input" type="text" class="block m-4 mx-auto border-b text-2xl focus:outline-none w-3/4" >
-                <button  id="withdraw-button" onclick="withdraw()" class="bg-slate-400 px-6 py-2 rounded border-2 border-white font-semibold ">Withdraw</button>
-               
+                <button  id="withdraw-button" onclick="withdraw()" class="bg-slate-400 px-6 py-2 rounded border-2 border-white font-semibold ">Withdraw</button> 
             </div>
 
           </div>
