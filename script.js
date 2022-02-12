@@ -4,4 +4,7 @@ document.getElementById("login-button").addEventListener("click",function(){
     if(getEmail.value == 'mohuya@gmail.com' && getPass.value== 'mohu'){
         window.location.href = "banking.html";
     }
+    else{
+        alert("please give a valid username & password");
+    }
 })
